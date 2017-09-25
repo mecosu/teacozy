@@ -19,6 +19,10 @@ body {
   background-color: black;
 }
 
+#logo {
+  height: 50px;
+}
+
 .nav {
   display: flex;
   width: 400px;
@@ -80,20 +84,62 @@ text-align: center;
   z-index: 4;
 }
 
+.featuredteas {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas {
+  height: 200px;
+  width: 300px;
+}
+
 .locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url('../images/locations-background.jpg');
   width: 1200px;
   height: 500px;
+  padding-bottom: 100px;
 }
 
-#downtown {
-
+.addresses {
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
-#eastbayside {
-
+#downtown, #eastbayside, #oakdale {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-#oakdale {
-  
+.footer {
+  display: flex;
+  width: 100%;
+  positionL relative;
+}
+
+.contact {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#copyright {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
 }
