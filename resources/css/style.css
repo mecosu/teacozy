@@ -21,6 +21,7 @@ body {
 
 #logo {
   height: 50px;
+  margin-left: 15px;
 }
 
 .nav {
@@ -65,6 +66,7 @@ text-align: center;
   background-image: url('../images/mission-background.jpg');
   width: 1200px;
   height: 700px;
+  margin-bottom: 50px;
 }
 
 .missiontext {
@@ -86,14 +88,23 @@ text-align: center;
 
 .featuredteas {
   display: flex;
-  width: 900px;
+  width: 990px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .teas {
   height: 200px;
   width: 300px;
+}
+
+.teas {
+    margin: 0px 15px;
+}
+
+h4.featuredteas {
+  margin-top: 10px;
 }
 
 .locations {
@@ -126,12 +137,14 @@ text-align: center;
 .footer {
   display: flex;
   width: 100%;
-  positionL relative;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contact {
   height: 200px;
-  width: 100%;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,4 +155,5 @@ text-align: center;
   display: flex;
   width: 100%;
   justify-content: flex-start;
+  padding: 20px;
 }
