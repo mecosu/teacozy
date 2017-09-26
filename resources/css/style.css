@@ -95,16 +95,12 @@ text-align: center;
 }
 
 .teas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   height: 200px;
   width: 300px;
-}
-
-.teas {
-    margin: 0px 15px;
-}
-
-h4.featuredteas {
-  margin-top: 10px;
+  margin: 0px 15px;
 }
 
 .locations {
@@ -122,7 +118,6 @@ h4.featuredteas {
   display: flex;
   width: 980px;
   justify-content: space-between;
-  margin-top: 15px;
 }
 
 #downtown, #eastbayside, #oakdale {
